@@ -1,13 +1,13 @@
-# url-schema
-URL Schema collections for MacOS
+# url-scheme
+URL Scheme collections for MacOS
 
 
 ## 介绍
 
-URL Schema是应用快捷操作的一种解决方案。
-由于不同应用支持的情况一言难尽， 所以在这里总结下工作中比较常用的URL Schema。
+URL Scheme是应用快捷操作的一种解决方案。
+由于不同应用支持的情况一言难尽， 所以在这里总结下工作中比较常用的URL Scheme。
 
-仅限 **MacOS** 端，想了解更多内容可以查看：[URL Schema收集](https://gist.github.com/JamesHopbourn/046bc341e7debfd0c86e3b388d983c53)
+仅限 **MacOS** 端，想了解更多内容可以查看：[URL Scheme收集](https://gist.github.com/JamesHopbourn/046bc341e7debfd0c86e3b388d983c53)
 
 
 ## vscode
@@ -69,7 +69,7 @@ open 'obsidian://advanced-uri?vault=obsidian&commandid=quickadd%253ArunQuickAdd'
 
 ## 飞书
 
-飞书是工作中常用的IM软件，支持一些URL Schema方案：[lark](https://open.feishu.cn/document/common-capabilities/applink-protocol/applink-introduction/applink-structure)
+飞书是工作中常用的IM软件，支持一些URL Scheme方案：[lark](https://open.feishu.cn/document/common-capabilities/applink-protocol/applink-introduction/applink-structure)
 
 ### 1. 样例
 
@@ -87,5 +87,5 @@ open "lark://applink.feishu.cn/client/calendar/open"
 ```
 
 ### 2. 扩展
-* lark、feishu作为schema取代https都是可以的
+* lark、feishu作为scheme取代https都是可以的
 * 样例一中的openID需要调用接口获取
